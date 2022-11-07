@@ -3769,7 +3769,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@backstage/create-app@workspace:*, @backstage/create-app@workspace:packages/create-app":
+"@backstage/create-app@^0.4.34-next.1, @backstage/create-app@workspace:packages/create-app":
   version: 0.0.0-use.local
   resolution: "@backstage/create-app@workspace:packages/create-app"
   dependencies:
@@ -7477,7 +7477,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@backstage/plugin-tech-insights@workspace:^, @backstage/plugin-tech-insights@workspace:plugins/tech-insights":
+"@backstage/plugin-tech-insights@^0.3.3-next.1, @backstage/plugin-tech-insights@workspace:plugins/tech-insights":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-tech-insights@workspace:plugins/tech-insights"
   dependencies:
@@ -22245,7 +22245,7 @@ __metadata:
     "@backstage/plugin-sentry": "workspace:^"
     "@backstage/plugin-shortcuts": "workspace:^"
     "@backstage/plugin-stack-overflow": "workspace:^"
-    "@backstage/plugin-tech-insights": "workspace:^"
+    "@backstage/plugin-tech-insights": ^0.3.3-next.1
     "@backstage/plugin-tech-radar": "workspace:^"
     "@backstage/plugin-techdocs": "workspace:^"
     "@backstage/plugin-techdocs-module-addons-contrib": "workspace:^"
@@ -34904,7 +34904,7 @@ __metadata:
   dependencies:
     "@backstage/cli": "workspace:*"
     "@backstage/codemods": "workspace:*"
-    "@backstage/create-app": "workspace:*"
+    "@backstage/create-app": ^0.4.34-next.1
     "@backstage/errors": "workspace:^"
     "@changesets/cli": ^2.14.0
     "@manypkg/get-packages": ^1.1.3
