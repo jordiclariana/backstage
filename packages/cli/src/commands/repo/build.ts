@@ -154,7 +154,7 @@ export async function command(opts: OptionValues, cmd: Command): Promise<void> {
         }
         await buildFrontend({
           targetDir: pkg.dir,
-          configPaths: (buildOptions.config as string[]) ?? [],
+          configPaths: opts.config ?? buildOptions.config ?? [],
           writeStats: Boolean(buildOptions.stats),
         });
       },
